@@ -37,12 +37,12 @@ h4
 .dl-fix {
    position: fixed;
    top: 22%;
+   right: 0;
    z-index: 100;
 }
 
 .dark-light-mode {
    position: relative;
-   right: -647%;
    display: inline-block;
 }
 
@@ -94,13 +94,8 @@ h4
    background-color: #ffffff;
 }
 
-#header {
-   
-}
-
 .header-div {
-   position: fixed;
-   width: 98%;
+   position: sticky;
    top: 0;
    padding: 30px 0;
    background-color: var(--bgc-dark);
