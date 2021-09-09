@@ -266,20 +266,20 @@ h4
 
 
 .img {
-   width: 350px;
+   width: 100%;
    padding: 7px;
 }
 
 .img-350-215 {
-   height: 215px;
+   min-height: 215px;
 }
 
 .img-350-450 {
-   height: 450px;
+   min-height: 450px;
 }
 
 .img-350-290 {
-   height: 290px;
+   min-height: 290px;
    margin-top: 15px;
 }
 
