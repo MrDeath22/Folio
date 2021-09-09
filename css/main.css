@@ -284,16 +284,11 @@ h4
 
 .img-350-290 {
    min-height: 290px;
-   margin-top: 15px;
-}
-
-.img-top {
-   margin-top: 15px;
 }
 
 .relative:hover .img-title {
    transform: translate(0%,-10%);
-   opacity: 1;
+   opacity: 0.9;
 }
 
 .relative {
@@ -309,7 +304,7 @@ h4
    height: 90px;
    padding: 20px;
    border-radius: 15px;
-   background-color: #f2f2f2f2;
+   background-color: var(--bgc-lite);
    transition: all 0.4s ease;
    opacity: 0;
 }
