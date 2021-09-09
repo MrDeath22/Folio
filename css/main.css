@@ -94,12 +94,15 @@ h4
    background-color: #ffffff;
 }
 
-.header-div {
+#header {
    position: sticky;
    top: 0;
+   z-index: 99;
+}
+
+.header-div {
    padding: 30px 0;
    background-color: var(--bgc-dark);
-   z-index: 99;
 }
 
 .logo-link {
